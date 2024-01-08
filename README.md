@@ -2,7 +2,7 @@
 
 ### How to Run the Python Notebook
 
-This notebook demonstrates the implementation of a Q-learning agent to solve the Mountain Car problem. Follow the steps below to get started.
+This notebook demonstrates the implementation of a Q-learning agent to solve the Mountain Car problem. Follow the steps below to get started. Also, it contains all the analysis graphics for over 20 trained agents.
 
 #### Prerequisites
 
