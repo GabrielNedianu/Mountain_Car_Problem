@@ -1,0 +1,382 @@
+[
+    {
+        "Config_ID": "10x10_1",
+        "Grid": [
+            10,
+            10
+        ],
+        "Alpha": 0.1,
+        "Gamma": 0.99,
+        "Epsilon": 0.1,
+        "Epsilon_Decay": 0.95,
+        "Episodes": 500,
+        "Success_Rate": 0.725,
+        "Avg_Reward": -436.87,
+        "Avg_Length": 436.87,
+        "Min_Length": 161,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 24.61,
+        "QTable_File": "q_table_config_1.npy"
+    },
+    {
+        "Config_ID": "10x10_2",
+        "Grid": [
+            10,
+            10
+        ],
+        "Alpha": 0.1,
+        "Gamma": 0.99,
+        "Epsilon": 0.3,
+        "Epsilon_Decay": 0.95,
+        "Episodes": 1000,
+        "Success_Rate": 0.155,
+        "Avg_Reward": -853.57,
+        "Avg_Length": 853.57,
+        "Min_Length": 155,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 38.68,
+        "QTable_File": "q_table_config_2.npy"
+    },
+    {
+        "Config_ID": "10x10_3",
+        "Grid": [
+            10,
+            10
+        ],
+        "Alpha": 0.2,
+        "Gamma": 0.98,
+        "Epsilon": 0.3,
+        "Epsilon_Decay": 0.97,
+        "Episodes": 5000,
+        "Success_Rate": 0.0,
+        "Avg_Reward": -1000.0,
+        "Avg_Length": 1000.0,
+        "Min_Length": 1000,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 284.06,
+        "QTable_File": "q_table_config_3.npy"
+    },
+    {
+        "Config_ID": "10x10_4",
+        "Grid": [
+            10,
+            10
+        ],
+        "Alpha": 0.3,
+        "Gamma": 0.95,
+        "Epsilon": 0.4,
+        "Epsilon_Decay": 0.99,
+        "Episodes": 10000,
+        "Success_Rate": 0.676,
+        "Avg_Reward": -440.71,
+        "Avg_Length": 440.71,
+        "Min_Length": 134,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 500.76,
+        "QTable_File": "q_table_config_4.npy"
+    },
+    {
+        "Config_ID": "10x10_5",
+        "Grid": [
+            10,
+            10
+        ],
+        "Alpha": 0.5,
+        "Gamma": 0.9,
+        "Epsilon": 0.5,
+        "Epsilon_Decay": 0.9,
+        "Episodes": 25000,
+        "Success_Rate": 0.0,
+        "Avg_Reward": -1000.0,
+        "Avg_Length": 1000.0,
+        "Min_Length": 1000,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 7314.19,
+        "QTable_File": "q_table_config_5.npy"
+    },
+    {
+        "Config_ID": "20x20_1",
+        "Grid": [
+            20,
+            20
+        ],
+        "Alpha": 0.1,
+        "Gamma": 0.99,
+        "Epsilon": 0.1,
+        "Epsilon_Decay": 0.95,
+        "Episodes": 500,
+        "Success_Rate": 0.0,
+        "Avg_Reward": -1000.0,
+        "Avg_Length": 1000.0,
+        "Min_Length": 1000,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 20.22,
+        "QTable_File": "q_table_config_6.npy"
+    },
+    {
+        "Config_ID": "20x20_2",
+        "Grid": [
+            20,
+            20
+        ],
+        "Alpha": 0.1,
+        "Gamma": 0.99,
+        "Epsilon": 0.1,
+        "Epsilon_Decay": 0.95,
+        "Episodes": 1000,
+        "Success_Rate": 1.0,
+        "Avg_Reward": -165.83,
+        "Avg_Length": 165.83,
+        "Min_Length": 163,
+        "Max_Length": 169,
+        "Failures": 0,
+        "Train_Duration_sec": 26.54,
+        "QTable_File": "q_table_config_7.npy"
+    },
+    {
+        "Config_ID": "20x20_3",
+        "Grid": [
+            20,
+            20
+        ],
+        "Alpha": 0.2,
+        "Gamma": 0.99,
+        "Epsilon": 0.2,
+        "Epsilon_Decay": 0.96,
+        "Episodes": 10000,
+        "Success_Rate": 0.988,
+        "Avg_Reward": -187.9,
+        "Avg_Length": 187.9,
+        "Min_Length": 146,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 127.1,
+        "QTable_File": "q_table_config_8.npy"
+    },
+    {
+        "Config_ID": "20x20_4",
+        "Grid": [
+            20,
+            20
+        ],
+        "Alpha": 0.3,
+        "Gamma": 0.99,
+        "Epsilon": 0.3,
+        "Epsilon_Decay": 0.95,
+        "Episodes": 25000,
+        "Success_Rate": 1.0,
+        "Avg_Reward": -142.79,
+        "Avg_Length": 142.79,
+        "Min_Length": 134,
+        "Max_Length": 150,
+        "Failures": 0,
+        "Train_Duration_sec": 323.72,
+        "QTable_File": "q_table_config_9.npy"
+    },
+    {
+        "Config_ID": "20x20_5",
+        "Grid": [
+            20,
+            20
+        ],
+        "Alpha": 0.25,
+        "Gamma": 0.95,
+        "Epsilon": 0.4,
+        "Epsilon_Decay": 0.9,
+        "Episodes": 50000,
+        "Success_Rate": 0.982,
+        "Avg_Reward": -181.75,
+        "Avg_Length": 181.75,
+        "Min_Length": 128,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 681.57,
+        "QTable_File": "q_table_config_10.npy"
+    },
+    {
+        "Config_ID": "50x50_1",
+        "Grid": [
+            50,
+            50
+        ],
+        "Alpha": 0.1,
+        "Gamma": 0.99,
+        "Epsilon": 0.2,
+        "Epsilon_Decay": 0.99,
+        "Episodes": 10000,
+        "Success_Rate": 0.98,
+        "Avg_Reward": -192.33,
+        "Avg_Length": 192.33,
+        "Min_Length": 116,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 196.57,
+        "QTable_File": "q_table_config_11.npy"
+    },
+    {
+        "Config_ID": "50x50_2",
+        "Grid": [
+            50,
+            50
+        ],
+        "Alpha": 0.1,
+        "Gamma": 0.99,
+        "Epsilon": 0.1,
+        "Epsilon_Decay": 0.95,
+        "Episodes": 50000,
+        "Success_Rate": 1.0,
+        "Avg_Reward": -120.37,
+        "Avg_Length": 120.37,
+        "Min_Length": 107,
+        "Max_Length": 228,
+        "Failures": 0,
+        "Train_Duration_sec": 590.94,
+        "QTable_File": "q_table_config_12.npy"
+    },
+    {
+        "Config_ID": "50x50_3",
+        "Grid": [
+            50,
+            50
+        ],
+        "Alpha": 0.2,
+        "Gamma": 0.98,
+        "Epsilon": 0.3,
+        "Epsilon_Decay": 0.98,
+        "Episodes": 25000,
+        "Success_Rate": 0.995,
+        "Avg_Reward": -129.88,
+        "Avg_Length": 129.88,
+        "Min_Length": 108,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 312.57,
+        "QTable_File": "q_table_config_13.npy"
+    },
+    {
+        "Config_ID": "50x50_4",
+        "Grid": [
+            50,
+            50
+        ],
+        "Alpha": 0.3,
+        "Gamma": 0.95,
+        "Epsilon": 0.4,
+        "Epsilon_Decay": 0.95,
+        "Episodes": 50000,
+        "Success_Rate": 0.995,
+        "Avg_Reward": -127.92,
+        "Avg_Length": 127.92,
+        "Min_Length": 86,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 549.76,
+        "QTable_File": "q_table_config_14.npy"
+    },
+    {
+        "Config_ID": "50x50_5",
+        "Grid": [
+            50,
+            50
+        ],
+        "Alpha": 0.5,
+        "Gamma": 0.9,
+        "Epsilon": 0.5,
+        "Epsilon_Decay": 0.9,
+        "Episodes": 100000,
+        "Success_Rate": 0.996,
+        "Avg_Reward": -171.1,
+        "Avg_Length": 171.1,
+        "Min_Length": 136,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 1174.51,
+        "QTable_File": "q_table_config_15.npy"
+    },
+    {
+        "Config_ID": "100x100_1",
+        "Grid": [
+            100,
+            100
+        ],
+        "Alpha": 0.2,
+        "Gamma": 0.95,
+        "Epsilon": 0.3,
+        "Epsilon_Decay": 0.95,
+        "Episodes": 10000,
+        "Success_Rate": 0.788,
+        "Avg_Reward": -363.8,
+        "Avg_Length": 363.8,
+        "Min_Length": 149,
+        "Max_Length": 1000,
+        "Failures": 0,
+        "Train_Duration_sec": 265.84,
+        "QTable_File": "q_table_config_16.npy"
+    },
+    {
+        "Config_ID": "100x100_2",
+        "Grid": [
+            100,
+            100
+        ],
+        "Alpha": 0.3,
+        "Gamma": 0.98,
+        "Epsilon": 0.3,
+        "Epsilon_Decay": 0.98,
+        "Episodes": 25000,
+        "Success_Rate": 1.0,
+        "Avg_Reward": -120.81,
+        "Avg_Length": 120.81,
+        "Min_Length": 86,
+        "Max_Length": 159,
+        "Failures": 0,
+        "Train_Duration_sec": 367.92,
+        "QTable_File": "q_table_config_17.npy"
+    },
+    {
+        "Config_ID": "100x100_3",
+        "Grid": [
+            100,
+            100
+        ],
+        "Alpha": 0.4,
+        "Gamma": 0.99,
+        "Epsilon": 0.4,
+        "Epsilon_Decay": 0.99,
+        "Episodes": 50000,
+        "Success_Rate": 1.0,
+        "Avg_Reward": -121.56,
+        "Avg_Length": 121.56,
+        "Min_Length": 86,
+        "Max_Length": 164,
+        "Failures": 0,
+        "Train_Duration_sec": 544.02,
+        "QTable_File": "q_table_config_18.npy"
+    },
+    {
+        "Config_ID": "100x100_4",
+        "Grid": [
+            100,
+            100
+        ],
+        "Alpha": 0.1,
+        "Gamma": 0.99,
+        "Epsilon": 0.4,
+        "Epsilon_Decay": 0.99,
+        "Episodes": 100000,
+        "Success_Rate": 1.0,
+        "Avg_Reward": -108.89,
+        "Avg_Length": 108.89,
+        "Min_Length": 85,
+        "Max_Length": 173,
+        "Failures": 0,
+        "Train_Duration_sec": 1340.79,
+        "QTable_File": "q_table_config_19.npy"
+    }
+]
